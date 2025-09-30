@@ -8,7 +8,7 @@
     <form method="post">
         {% csrf_token %}
         <input type="text" name="title" placeholder="Enter task">
-        <button type="submit">Add</button>
+        <button type="submit">Add Task</button>
     </form>
     <ul>
         {% for task in tasks %}
